@@ -32,7 +32,7 @@ class AuthButton extends StatelessWidget {
                         "+254${state.phoneController.text}");
                   } else if (state.phoneAuthState == PhoneAuthState.codeSent &&
                       state.pageIndex == 1) {
-                    print("+254${state.phoneController}" +
+                    print("+254${state.phoneController.text}" +
                         " very" +
                         state.verificationId +
                         " 11s" +
